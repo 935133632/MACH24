@@ -34,7 +34,7 @@ jobs:
         run: |
           mkdir -p _site/assets/figures
           cp index.html styles.css app.js _site/
-          cp assets/mach25-logo.png _site/assets/
+          cp assets/mach25-logo-cropped.png _site/assets/
           cp assets/figures/figure2_gene_landscape.png _site/assets/figures/
           touch _site/.nojekyll
 
