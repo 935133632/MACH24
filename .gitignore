@@ -1,0 +1,7 @@
+# Manuscripts and source datasets must remain local.
+*.pdf
+*.csv
+*.tsv
+*.xlsx
+*.docx
+*.bundle
