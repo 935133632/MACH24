@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MACH25 Cohort: longitudinal research on clonal hematopoiesis in adults with solid tumors.">
+  <meta name="theme-color" content="#071a35">
+  <title>MACH25 Cohort | Clonal Hematopoiesis in Solid Tumors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="cyber-noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="topline"></div>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="MACH25 Cohort home">
+      <img src="assets/mach25-logo.png" alt="MACH25 Cohort logo">
+    </a>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a href="#cohort">Cohort</a>
+      <a href="#signals">Signals</a>
+      <div class="nav-data-menu">
+        <button class="nav-data-trigger" type="button" aria-expanded="false" aria-controls="data-submenu">Data <span aria-hidden="true">⌄</span></button>
+        <div class="nav-submenu" id="data-submenu">
+          <a href="#data" data-nav-category="demographics"><span>01</span> Demographics</a>
+          <a href="#data" data-nav-category="clinical"><span>02</span> Clinical</a>
+          <a href="#data" data-nav-category="genomics"><span>03</span> Genomics</a>
+          <a href="#data" data-nav-category="sequencing"><span>04</span> Sequencing</a>
+          <a href="#data" data-nav-category="outcomes"><span>05</span> Outcomes</a>
+        </div>
+      </div>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="header-cta" href="#data">Explore the data <span aria-hidden="true">↘</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> MD Anderson Cancer Center · Adult cohort release <span class="status-code">SYS//M25.24309</span></p>
+        <h1>Making the smallest clones <em>visible.</em></h1>
+        <p class="hero-lede">MACH25 is a longitudinal research cohort built to study clonal hematopoiesis below the conventional 2% variant allele frequency threshold in adults with solid tumors.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#cohort">View the cohort <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="assets/MACH25_IJE_Cohort_Profile_Manuscript.pdf" target="_blank" rel="noreferrer">Read the current report <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-note"><span class="note-mark">i</span> Aggregate, de-identified outputs only. Current release: 24 September 2026.</div>
+      </div>
+      <div class="hero-visual" aria-label="MACH25 cohort summary">
+        <div class="helix" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+        <div class="hero-signal">
+          <div class="signal-kicker">COHORT SNAPSHOT <span class="live-status">LIVE</span></div>
+          <div class="signal-number">24,309</div>
+          <div class="signal-label">eligible adults with solid tumors</div>
+          <div class="signal-rule"></div>
+          <div class="signal-foot"><span class="pulse"></span> Baseline sequencing + linked follow-up</div>
+          <div class="signal-coordinates">29.7604° N // 95.3698° W<br>SEQ_NODE // ONLINE</div>
+        </div>
+        <div class="hero-annotation annotation-a"><span>01</span> low-VAF detection</div>
+        <div class="hero-annotation annotation-b"><span>02</span> longitudinal outcomes</div>
+      </div>
+    </section>
+
+    <section class="metric-strip" aria-label="Key cohort metrics">
+      <div class="metric"><span class="metric-value">32.1%</span><span class="metric-label">any low-VAF mutation<br><small>VAF &lt; 2%</small></span></div>
+      <div class="metric"><span class="metric-value">5.71 y</span><span class="metric-label">median observed<br><small>follow-up</small></span></div>
+      <div class="metric"><span class="metric-value">8,327</span><span class="metric-label">observed deaths<br><small>linked outcome data</small></span></div>
+      <div class="metric"><span class="metric-value">23</span><span class="metric-label">genes in the<br><small>capture panel</small></span></div>
+    </section>
+
+    <section class="section-pad section-light" id="cohort">
+      <div class="section-intro">
+        <p class="eyebrow">01 · The cohort</p>
+        <h2>A population-scale view of clonal hematopoiesis.</h2>
+        <p>MACH25 connects deep baseline sequencing with registry-linked follow-up, giving researchers a shared platform for asking how small clones emerge, persist and matter across cancer populations.</p>
+      </div>
+      <div class="cohort-grid">
+        <div class="flow-panel">
+          <div class="panel-heading"><span>Eligibility flow</span><span class="panel-meta">Adult release · n = 24,309</span></div>
+          <div class="flow-list">
+            <div class="flow-row"><span class="flow-index">01</span><span class="flow-title">Original clinical cohort</span><strong>24,569</strong></div>
+            <div class="flow-row"><span class="flow-index">02</span><span class="flow-title">Age ≥ 18 at blood draw</span><strong>24,554</strong></div>
+            <div class="flow-row"><span class="flow-index">03</span><span class="flow-title">Neoplastic diagnosis on / before draw</span><strong>24,438</strong></div>
+            <div class="flow-row"><span class="flow-index">04</span><span class="flow-title">Resolved diagnosis timing</span><strong>24,336</strong></div>
+            <div class="flow-row flow-final"><span class="flow-index">05</span><span class="flow-title">Final eligible cohort</span><strong>24,309</strong></div>
+          </div>
+          <p class="panel-caption">Sequential exclusions are reported in order; exclusions can overlap.</p>
+        </div>
+        <div class="definition-panel">
+          <p class="micro-label">How MACH25 classifies variants</p>
+          <div class="class-switcher" role="tablist" aria-label="Variant classes">
+            <button class="class-tab is-active" data-class="low" role="tab" aria-selected="true">Low VAF</button>
+            <button class="class-tab" data-class="chip" role="tab" aria-selected="false">Conventional CHIP</button>
+          </div>
+          <div class="class-copy" id="class-copy">
+            <div class="class-stat">&lt; 2<span>%</span></div>
+            <h3>Low-VAF clonal hematopoiesis</h3>
+            <p>Variants detected below the conventional 2% VAF threshold. MACH25 is designed to make this low-signal biology measurable at scale.</p>
+          </div>
+          <div class="class-bar"><span class="bar-low"></span><span class="bar-chip"></span><span class="bar-none"></span></div>
+          <div class="bar-legend"><span><i class="dot dot-low"></i>Low-VAF only <b>25.5%</b></span><span><i class="dot dot-chip"></i>CHIP <b>15.1%</b></span><span><i class="dot dot-none"></i>No detected CH <b>59.4%</b></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-dark" id="signals">
+      <div class="section-intro intro-dark">
+        <p class="eyebrow">02 · The signal</p>
+        <h2>Small variants. Strong technical support.</h2>
+        <p>Low-VAF variants are not simply “below a cutoff.” They are measured with thousands of reads and a median of 21 alternate reads per retained variant.</p>
+      </div>
+      <div class="signal-grid">
+        <div class="signal-card">
+          <div class="signal-card-top"><span>LOW-VAF VARIANTS</span><span class="signal-card-index">A</span></div>
+          <div class="signal-card-number">10,793</div>
+          <div class="signal-card-caption">retained variants below 2% VAF</div>
+          <div class="mini-bars"><span style="height:32%"></span><span style="height:45%"></span><span style="height:52%"></span><span style="height:62%"></span><span style="height:78%"></span><span style="height:90%"></span><span style="height:74%"></span><span style="height:100%"></span><span style="height:84%"></span><span style="height:92%"></span></div>
+        </div>
+        <div class="signal-card signal-card-accent">
+          <div class="signal-card-top"><span>MEDIAN DEPTH</span><span class="signal-card-index">B</span></div>
+          <div class="signal-card-number">2,972<span class="unit">×</span></div>
+          <div class="signal-card-caption">reads for low-VAF variants</div>
+          <div class="depth-track"><span></span></div>
+          <div class="depth-scale"><span>0</span><span>1,500</span><span>3,000×</span></div>
+        </div>
+        <div class="signal-card">
+          <div class="signal-card-top"><span>ALT-READ SUPPORT</span><span class="signal-card-index">C</span></div>
+          <div class="signal-card-number">21<span class="unit">×</span></div>
+          <div class="signal-card-caption">median alternate reads per low-VAF variant</div>
+          <div class="read-dots" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+      <div class="figure-feature">
+        <div class="figure-copy"><p class="micro-label">Cohort signal map</p><h3>From the cohort to the signal.</h3><p>The source population narrows to 24,309 eligible adults, then separates into three mutually exclusive baseline clonal hematopoiesis groups.</p><a class="text-link text-link-light" href="#data">Explore cohort variables <span aria-hidden="true">↘</span></a></div>
+        <div class="cohort-signal-map" role="img" aria-label="Cohort flow from 24,569 source participants to 24,309 eligible adults: 14,443 with no detected CH, 6,193 with low VAF CH only, and 3,673 with conventional CHIP">
+          <div class="signal-map-stage"><span class="stage-code">SOURCE</span><strong>24,569</strong><small>clinical cohort</small></div>
+          <div class="signal-map-connector"><span>−260</span></div>
+          <div class="signal-map-stage stage-eligible"><span class="stage-code">ELIGIBLE</span><strong>24,309</strong><small>adult analytic cohort</small></div>
+          <div class="signal-map-branches">
+            <div class="signal-branch branch-none"><span>No detected CH</span><strong>14,443</strong><small>59.4%</small></div>
+            <div class="signal-branch branch-low"><span>Low VAF CH only</span><strong>6,193</strong><small>25.5%</small></div>
+            <div class="signal-branch branch-chip"><span>Conventional CHIP</span><strong>3,673</strong><small>15.1%</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad data-explorer-section" id="data">
+      <div class="section-intro split-intro data-intro">
+        <div><p class="eyebrow">03 · Data explorer</p><h2>From category to variable.</h2></div>
+        <p>Browse the public cohort data dictionary. Select a category, then a variable to view its definition, availability and aggregate distribution.</p>
+      </div>
+      <div class="data-shell">
+        <aside class="data-sidebar" aria-label="Data categories and variables">
+          <div class="data-sidebar-title"><span>DATA_CATALOG</span><span id="variable-count">14 variables</span></div>
+          <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Data categories"></div>
+          <div class="variable-menu-header"><span>Variables</span><span id="active-category-code">DEM</span></div>
+          <div class="variable-menu" id="variable-menu" aria-label="Variables"></div>
+        </aside>
+        <article class="variable-detail" id="variable-detail" aria-live="polite">
+          <div class="variable-detail-top">
+            <div>
+              <div class="variable-breadcrumb" id="variable-breadcrumb">Demographics / Continuous</div>
+              <h3 id="variable-label">Age at blood draw</h3>
+              <code id="variable-name">DEM · CONTINUOUS VARIABLE</code>
+            </div>
+            <span class="variable-access">AGGREGATE PUBLIC VIEW</span>
+          </div>
+          <p class="variable-definition" id="variable-definition"></p>
+          <div class="variable-meta" id="variable-meta"></div>
+          <div class="summary-panel">
+            <div class="summary-panel-head"><span id="summary-title">Distribution summary</span><span id="summary-unit">Participants</span></div>
+            <div class="summary-chart" id="summary-chart" role="img" aria-label="Variable summary chart"></div>
+          </div>
+          <div class="variable-note"><span>INTERPRETATION NOTE</span><p id="variable-note"></p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad section-light" id="resources">
+      <div class="section-intro split-intro"><div><p class="eyebrow">04 · The platform</p><h2>A cohort built for the next question.</h2></div><p>Use MACH25 as a starting point for reproducible, longitudinal studies of clonal hematopoiesis in the context of cancer.</p></div>
+      <div class="resource-grid">
+        <article class="resource-card"><div class="resource-number">01</div><h3>Genomic landscape</h3><p>Explore the 23-gene capture panel and gene-level mutation patterns across the cohort.</p><a href="assets/figures/figure2_gene_landscape.png" target="_blank" rel="noreferrer">View Figure 02 <span>↗</span></a></article>
+        <article class="resource-card"><div class="resource-number">02</div><h3>Linked follow-up</h3><p>Baseline sequencing is paired with vital status and registry-linked outcomes for longitudinal modeling.</p></article>
+      </div>
+      <div class="collaboration-banner">
+        <div><p class="micro-label">Collaboration</p><h3>Build the next study with MACH25.</h3><p>We welcome research collaboration. For additional cohort details and collaboration opportunities, contact Kevin T. Nead, MD, MPhil.</p></div>
+        <a class="collaboration-link" href="https://faculty.mdanderson.org/profiles/kevin_nead.html" target="_blank" rel="noreferrer">View Dr Nead's faculty profile <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section-pad about-section" id="about">
+      <div class="about-mark">M25</div>
+      <div class="about-copy"><p class="eyebrow">05 · About MACH25</p><h2>Built to see what conventional thresholds miss.</h2><p>MACH25 — <em>Clonal Hematopoiesis in MD Anderson Cancer Center</em> — is a research cohort for understanding the earliest measurable traces of clonal hematopoiesis in people with solid tumors.</p><div class="boundary-note"><span>Research boundary</span><p>Low-VAF detection supports discovery and association studies. It does not replace orthogonal assay validation or clinical adjudication.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><img src="assets/mach25-logo.png" alt="MACH25 Cohort"><span>Aggregate cohort website · Release 2026.09.24</span></div><div class="footer-links"><a href="#top">Back to top ↑</a><a href="#about">Study overview</a></div></footer>
+  <script src="app.js"></script>
+</body>
+</html>
