@@ -2,7 +2,7 @@ const classCopy = document.querySelector('#class-copy');
 const classTabs = document.querySelectorAll('.class-tab');
 
 const classContent = {
-  low: { stat: '&lt; 2<span>%</span>', title: 'Low-VAF clonal hematopoiesis', body: 'Variants detected below the conventional 2% VAF threshold. MACH25 is designed to make this low-signal biology measurable at scale.' },
+  low: { stat: '&lt; 2<span>%</span>', title: 'Low-VAF clonal hematopoiesis', body: 'Variants detected below the conventional 2% VAF threshold. MACH24 is designed to make this low-signal biology measurable at scale.' },
   chip: { stat: '≥ 2<span>%</span>', title: 'Conventional CHIP', body: 'Variants at or above the conventional 2% VAF threshold. This group provides a useful reference point for interpreting the lower-signal spectrum.' }
 };
 
