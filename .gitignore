@@ -1,7 +1,11 @@
-# Manuscripts and source datasets must remain local.
+# Exclude private files; allow only the reviewed public release assets.
 *.pdf
 *.csv
 *.tsv
 *.xlsx
 *.docx
 *.bundle
+!assets/MACH24_IJE_Cohort_Profile_Manuscript.pdf
+!assets/MACH24_IJE_Supplementary_Material.pdf
+!assets/figures/*.pdf
+!assets/source_data/*.csv

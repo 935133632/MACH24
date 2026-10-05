@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 
-/* MACH25: a welcoming, readable research website. */
+/* MACH24: a welcoming, readable research website. */
 :root{--bg:#fff;--ink:#19374a;--muted:#526572;--line:#dce3e5;--red:#b72f36;--teal:#27766f;--blue:#316a96;--violet:#79669a;--pink:#b72f36;--cyan:#27766f;--green:#27766f;--soft:#f5f4f0}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:126px}
@@ -92,8 +92,8 @@ main>.collaboration-banner{margin:0 max(7vw,24px) 70px;background:var(--soft)}
 .class-copy h3{font-size:23px;margin:12px 0}
 .class-copy p{color:var(--muted);font-size:14px}
 .class-bar{display:flex;height:10px;border-radius:5px;overflow:hidden}
-.bar-low{width:27.9%;background:var(--teal)}
-.bar-chip{width:15.6%;background:var(--red)}
+.bar-low{width:25.71085136%;background:var(--teal)}
+.bar-chip{width:15.34029678%;background:var(--red)}
 .bar-none{flex:1;background:#b3c1c8}
 .bar-legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:11px;color:var(--muted)}
 .bar-legend span{display:inline-flex;align-items:center;gap:5px}

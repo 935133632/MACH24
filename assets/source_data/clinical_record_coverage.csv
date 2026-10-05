@@ -1,0 +1,12 @@
+file,source_rows,matched_rows,participants,malformed_rows,csv_escapechar
+Demographics-Nead-08-31-2026.csv,25346,24126,24126,0,
+DiagnosisStage-Nead-07-15-2026.csv,135874,126266,19949,0,
+dob_date-blood-draw.csv,123323,24126,24126,0,
+Encounter-Nead-07-15-2026.csv,24985,24126,24126,0,
+MedicalHistory-Nead-07-15-2026.csv,6121448,5803454,23128,0,
+MedicationEvent-Nead-07-15-2026.csv,7882847,7209532,23244,0,backslash
+NeoplasticDiagnosis-Nead-07-15-2026.csv,826127,790541,24126,0,
+ProcedureEvent-Nead-07-15-2026.csv,26142776,24203686,24125,0,backslash
+RadiationSiteTreatment-07-15-2026.csv,27152,26161,10652,0,
+TreatmentSummary-Nead-07-15-2026.csv,165951,158933,23420,0,
+Vitals-Nead-07-15-2026.csv,137148,132416,23311,0,

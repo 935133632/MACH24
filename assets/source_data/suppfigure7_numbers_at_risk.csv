@@ -1,0 +1,22 @@
+group,time_years,at_risk
+No detected CH,0,14222
+No detected CH,3,10879
+No detected CH,6,7288
+No detected CH,9,5266
+No detected CH,12,588
+No detected CH,15,18
+No detected CH,18,0
+Low-VAF CH only,0,6203
+Low-VAF CH only,3,4514
+Low-VAF CH only,6,2855
+Low-VAF CH only,9,1897
+Low-VAF CH only,12,183
+Low-VAF CH only,15,6
+Low-VAF CH only,18,1
+CHIP >=2%,0,3700
+CHIP >=2%,3,2552
+CHIP >=2%,6,1505
+CHIP >=2%,9,977
+CHIP >=2%,12,74
+CHIP >=2%,15,1
+CHIP >=2%,18,0

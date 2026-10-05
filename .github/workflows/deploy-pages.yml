@@ -1,4 +1,4 @@
-name: Deploy MACH25 website to GitHub Pages
+name: Deploy MACH24 website to GitHub Pages
 
 on:
   push:
@@ -33,9 +33,12 @@ jobs:
         shell: bash
         run: |
           mkdir -p _site/assets/figures
-          cp index.html styles.css app.js _site/
-          cp assets/mach25-logo-cropped.png _site/assets/
-          cp assets/figures/figure2_gene_landscape.png _site/assets/figures/
+          cp index.html styles.css app.js data_catalog.json _site/
+          cp assets/mach24-logo.svg _site/assets/
+          cp assets/MACH24_IJE_*.pdf assets/aggregate_source_data.zip _site/assets/
+          cp assets/figures/figure1_cohort_assembly.* assets/figures/figure2_detection_and_age.* assets/figures/figure3_gene_landscape.* _site/assets/figures/
+          cp assets/figures/suppfigure* _site/assets/figures/
+          cp -R assets/source_data _site/assets/
           touch _site/.nojekyll
 
       - name: Upload public website only
