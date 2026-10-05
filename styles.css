@@ -92,8 +92,8 @@ main>.collaboration-banner{margin:0 max(7vw,24px) 70px;background:var(--soft)}
 .class-copy h3{font-size:23px;margin:12px 0}
 .class-copy p{color:var(--muted);font-size:14px}
 .class-bar{display:flex;height:10px;border-radius:5px;overflow:hidden}
-.bar-low{width:25.5%;background:var(--teal)}
-.bar-chip{width:15.1%;background:var(--red)}
+.bar-low{width:27.9%;background:var(--teal)}
+.bar-chip{width:15.6%;background:var(--red)}
 .bar-none{flex:1;background:#b3c1c8}
 .bar-legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font-size:11px;color:var(--muted)}
 .bar-legend span{display:inline-flex;align-items:center;gap:5px}
