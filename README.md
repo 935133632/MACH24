@@ -1,6 +1,6 @@
-# MACH25 Cohort Website
+# MACH24 Cohort Website
 
-This is a static, dependency-free website for the public-facing MACH25 cohort profile. It uses aggregate, de-identified outputs from the 24 September 2026 adult cohort release.
+This is a static, dependency-free website for the public-facing MACH24 cohort profile. It uses aggregate, de-identified outputs from the 24 September 2026 adult cohort release.
 
 ## Preview locally
 
