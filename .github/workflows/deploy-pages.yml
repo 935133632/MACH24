@@ -34,11 +34,8 @@ jobs:
         run: |
           mkdir -p _site/assets/figures
           cp index.html styles.css app.js data_catalog.json _site/
-          cp assets/mach24-logo.svg assets/mach24-research-emblem.png _site/assets/
-          cp assets/MACH24_IJE_*.pdf assets/aggregate_source_data.zip _site/assets/
-          cp assets/figures/figure1_cohort_assembly.* assets/figures/figure2_detection_and_age.* assets/figures/figure3_gene_landscape.* _site/assets/figures/
-          cp assets/figures/suppfigure* _site/assets/figures/
-          cp -R assets/source_data _site/assets/
+          cp assets/mach24-research-emblem.png _site/assets/
+          cp assets/figures/figure1_cohort_assembly.png assets/figures/figure2_detection_and_age.png assets/figures/figure3_gene_landscape.png assets/figures/suppfigure7_overall_survival.png _site/assets/figures/
           touch _site/.nojekyll
 
       - name: Upload public website only
