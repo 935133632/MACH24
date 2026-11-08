@@ -227,81 +227,96 @@ const dataCatalog = {
     "variables": [
       {
         "name": "primary_cancer_site",
-        "label": "Recorded tumor group",
-        "definition": "Registry-prioritized primary malignant solid-tumor site; this is descriptive context, not an eligibility rule.",
+        "label": "Recorded cancer groups",
+        "definition": "Cancer groups from NeoplasticDiagnosis using the 19 October 2026 classification framework. Each participant is counted once per group; named groups may overlap.",
         "kind": "Categorical",
         "available": "24,126",
         "completeness": "See category counts",
-        "headline": "Recorded tumor group",
-        "title": "Recorded tumor group",
+        "headline": "15 named cancer groups + Other",
+        "title": "Recorded cancer groups (non-exclusive)",
         "unit": "Participants",
         "chart": "bars",
-        "note": "All groups, including unknown and melanoma, are retained. Assignment prioritizes registry records, pre-draw timing, and proximity to blood collection.",
+        "note": "Denominator: 24,126 adults. All available diagnosis dates and domains are included, not only diagnoses before blood collection. Named groups require malignant primary behavior; melanoma also includes in situ disease. Hematologic uses the HEMATOLOGIC source group and does not establish malignancy at baseline. Other comprises participants with none of the 15 named groups. Percentages need not sum to 100%; these are not first-primary assignments.",
         "data": [
           [
             "Breast",
-            4221.0,
-            "4,221 · 17.5%"
+            5286,
+            "5,286 · 21.9%"
           ],
           [
-            "Other",
-            4008.0,
-            "4,008 · 16.6%"
+            "Lung and other thoracic",
+            5258,
+            "5,258 · 21.8%"
           ],
           [
-            "Prostate",
-            3666.0,
-            "3,666 · 15.2%"
+            "Colorectal and anal",
+            3033,
+            "3,033 · 12.6%"
           ],
           [
-            "Lung",
-            2831.0,
-            "2,831 · 11.7%"
+            "Upper gastrointestinal",
+            1579,
+            "1,579 · 6.5%"
           ],
           [
-            "Colorectal",
-            1830.0,
-            "1,830 · 7.6%"
+            "Hepatobiliary and pancreatic",
+            2690,
+            "2,690 · 11.1%"
+          ],
+          [
+            "Other gastrointestinal",
+            2986,
+            "2,986 · 12.4%"
+          ],
+          [
+            "Genitourinary",
+            7857,
+            "7,857 · 32.6%"
           ],
           [
             "Gynecologic",
-            1732.0,
-            "1,732 · 7.2%"
-          ],
-          [
-            "Kidney",
-            1413.0,
-            "1,413 · 5.9%"
-          ],
-          [
-            "Unknown",
-            1367.0,
-            "1,367 · 5.7%"
-          ],
-          [
-            "Head and neck",
-            900.0,
-            "900 · 3.7%"
-          ],
-          [
-            "Bladder",
-            872.0,
-            "872 · 3.6%"
-          ],
-          [
-            "Thyroid",
-            805.0,
-            "805 · 3.3%"
-          ],
-          [
-            "Pancreas",
-            471.0,
-            "471 · 2.0%"
+            2700,
+            "2,700 · 11.2%"
           ],
           [
             "Melanoma",
-            10.0,
-            "10 · 0.0%"
+            1775,
+            "1,775 · 7.4%"
+          ],
+          [
+            "Other skin cancers",
+            3570,
+            "3,570 · 14.8%"
+          ],
+          [
+            "Head and neck",
+            2131,
+            "2,131 · 8.8%"
+          ],
+          [
+            "Bone, soft tissue, and related sites",
+            7577,
+            "7,577 · 31.4%"
+          ],
+          [
+            "Brain and central nervous system",
+            1349,
+            "1,349 · 5.6%"
+          ],
+          [
+            "Endocrine",
+            1991,
+            "1,991 · 8.3%"
+          ],
+          [
+            "Hematologic",
+            1171,
+            "1,171 · 4.9%"
+          ],
+          [
+            "Other",
+            238,
+            "238 · 1.0%"
           ]
         ]
       },
